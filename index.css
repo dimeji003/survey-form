@@ -1,0 +1,46 @@
+body{
+    display: block;
+    background-image: url(./media/photo1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#main{
+    margin-top: 50px;
+    
+}
+#title , #description{
+    text-align: center;
+    line-height: 12px;
+}
+#back-form{
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(0, 50, 0);
+    height: 1200px;
+    overflow: auto;
+}
+
+#survey-form{
+    width: 500px;
+    margin: auto;
+    color: aliceblue;
+    padding-top: 40px;
+    height: 800px;
+    line-height: 25px;
+}
+select{
+    width: 100%;
+}
+#name , #email , #number , select{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+}
+#submit{
+    width: 100%;
+    background-color: red;
+    height: 60px;
+}
